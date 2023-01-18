@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert</title>
+  </head>
+  <body>
+    <h1>Hello JavaScript</h1>
+    <p class="js"></p>
+    <button onclick="hello()" class="fun">Chick me</button>
+    <script>
+      //   setTimeout(() => {
+      //     alert("Welcome Home");
+      //   }, 1000);
+
+      // Confirm
+      /*
+      confirm("Are you sure");
+      let val = confirm("Are you sure");
+      if (val){
+        document.querySelector(".js").innerHTML = "He pressed OK!"
+      }else{
+        document.querySelector(".js").innerHTML = "He pressed Cancel!"
+      }
+      */
+      function hello() {
+        let pro = prompt("Please solve 20-10 ", "0");
+        if (pro == 10) {
+          document.querySelector(".js").innerHTML = "Correct answer";
+        } else {
+          document.querySelector(".js").innerHTML = "wrong answer";
+        }
+      }
+    </script>
+  </body>
+</html>

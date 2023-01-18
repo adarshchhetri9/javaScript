@@ -1,0 +1,27 @@
+introduction
+data type 
+operator
+array
+conditon
+loops 
+function object 
+high order functuon
+set and map
+rest and spread
+error handling
+closure
+call stack 
+hoisting  
+working of function
+temperal dead zone
+javascript interview preparetion [scope, lexical scope, single thread]
+article interview cheatsheat 
+scope
+single thread
+call stack
+hositing 
+naming 
+check in debugger
+
+
+DOM(document object model) represent the page so that javascript program can change the document structure style and content

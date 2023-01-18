@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <ul>
+        <li class="h">hi</li>
+        <li class="h">hey</li>
+        <li class="h">hola</li>
+    </ul>
+
+    <script>
+        /*
+        console.log(document);
+        console.log(window.document);
+        console.log(document.documentElement);
+        */
+
+        // Children
+
+        // console.log(document.body.children);
+        // console.log(document.body.firstElementChild);
+        let write = document.getElementsByClassName("h");
+        console.log(write[0].innerText)
+        // write[2].setAttribute("class", "js  ")  
+        write[1].classList.add("teroBou", "teroAma")
+        write[0].textContent = "Namaste"
+    </script>
+</body>
+</html>
